@@ -59,7 +59,7 @@ module Mikka
     end
 
     describe '#ask' do
-      it 'sends a message'
+      it 'sends a message' do
             # future = actor.ask(:hi, 1000)
       # reply = Mikka.await_result(future, :timeout => '1000ms')
       # reply.should == :hi
